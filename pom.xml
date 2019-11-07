@@ -20,6 +20,8 @@
 	<properties>
 		<!-- REDMIC -->
 		<redmic.broker-lib.version>0.11.0</redmic.broker-lib.version>
+		<redmic.models.version>0.11.0</redmic.models.version>
+		<redmic.exceptions.version>0.10.0</redmic.exceptions.version>
 		<redmic.test-utils.version>0.10.0</redmic.test-utils.version>
 		<!-- OTHERS -->
 	</properties>
@@ -29,6 +31,18 @@
 			<groupId>es.redmic.lib</groupId>
 			<artifactId>broker-lib</artifactId>
 			<version>${redmic.broker-lib.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>es.redmic.lib</groupId>
+			<artifactId>models</artifactId>
+			<version>${redmic.models.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>es.redmic.lib</groupId>
+			<artifactId>exceptions</artifactId>
+			<version>${redmic.exceptions.version}</version>
 		</dependency>
 		
 		<!-- Test -->
